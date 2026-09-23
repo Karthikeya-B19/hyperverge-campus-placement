@@ -1,0 +1,22 @@
+# Supplied datasets and archives
+HV-AI-2025/
+HV-AI-2025-Test/
+*.zip
+
+# Training artifacts that are too large or reproducible
+outputs/*.pt
+outputs/*.pth
+outputs/*.npy
+
+# Python/Jupyter caches and environments
+.venv/
+venv/
+__pycache__/
+.ipython/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
